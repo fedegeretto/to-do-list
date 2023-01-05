@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.contenedor-app{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor-app h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+.agregar-tarea{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.agregar-tarea input{
+    height: 2.4rem;
+    width: 80%;
+    border-radius: 0%;
+    border: .1rem solid #13bb04;
+    font-size: 1rem;
+    padding: .5rem;
+
+}
+
+.agregar-tarea button{
+    width: 30%;
+    height: 2.4rem;
+    border: .2rem solid #13bb04;
+    background-color: #13bb04;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.agregar-tarea button:hover{
+    background-color: #0b8301;
+    border: none;
+}
+
+.lista-de-tareas{
+    margin-bottom: 1rem;
+}
+
+.lista-de-tareas ul{
+    padding: .5rem;
+}
+
+.lista-de-tareas ul li{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid #fff;
+}
+
+.lista-de-tareas ul li i{
+    color: #fd3939;
+    cursor: pointer;
+}
+
+.lista-de-tareas ul li i:hover{
+    color: #eb1717;
+}
+
+.eliminar-todo{
+    height: 2.4rem;
+    background-color: #0b8301;
+    color: #fff;
+    border: none;
+    padding: .8rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .02rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.eliminar-todo:hover{
+    background-color: #eb1717;
+}
+
+footer p{
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.6rem;
+}
+
+.mensaje-error{
+    background-color: #fd3939;
+    padding: .5rem;
+    border: .2rem solid #970606;
+}
